@@ -1,0 +1,21 @@
+[project]
+name = "chat-tts-test"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "hulb", email = "hulb@live.cn"},
+]
+dependencies = [
+    "chattts-fork>=0.0.3",
+    "ipython>=8.24.0",
+    "pyaudio>=0.2.14",
+    "numpy>=1.26.4",
+    "soundfile>=0.12.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
